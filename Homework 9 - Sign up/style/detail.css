@@ -1,0 +1,34 @@
+/*
+* Homework 9 - Signup
+* detail.css
+* Name: wuzht
+* Start date: 2017-11-30
+* Last edit date: 2017-12-2
+*/
+
+body {
+    background: #fafafa;
+    color: #125688;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+#detail-box {
+    background-color: white;
+    border: 1px solid #edeeee;
+    border-radius: 3px;
+    padding: 10px 0;
+    text-align: center;
+    width: 340px;
+    margin: 30px auto;
+}
+
+#user-info {
+    margin: 0;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.info {
+	color: black;
+}

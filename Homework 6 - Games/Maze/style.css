@@ -1,0 +1,179 @@
+/*
+* Homework 6 - Games - Maze
+* style.css
+* Name: wuzht
+* Start date: 2017-11-3
+* Last edit date: 2017-11-4
+*/
+
+body {
+    font-family: "Century Gothic", Futura, Verdana, sans-serif;
+    font-size: 13pt;
+    text-align: center;
+}
+
+.cursorHand {
+    cursor: pointer;
+}
+
+.cursorDefault {
+    cursor: default;
+}
+
+#head {
+    font-size: 20pt;
+}
+
+#game-state {
+    height: 30px;
+}
+
+#game-zone {
+    padding: 0;
+    margin: auto;
+    width: 380px;
+    height: 235px;
+    /*border: 1px solid red;*/
+    box-sizing: border-box;
+}
+
+.walls {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #EFEFEF;
+}
+
+.wallsAfterStart:hover {
+    background-color: red;
+}
+
+#wall1, #wall3 {
+    width: 120px;
+    height: 165px;
+}
+
+#wall1-neg {
+    box-sizing: border-box;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    height: 35px;
+}
+
+#wall1-pos {
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-top: none;
+    width: 120px;
+    height: 130px;
+}
+
+#wall2 {
+    position: relative;
+    z-index: 1;
+    left: 119.5px;
+    bottom: 165px;
+    width: 140px;
+    height: 35px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#wall3 {
+    position: relative;
+    left: 259px;
+    bottom: 200px;
+}
+
+#wall3-neg {
+    box-sizing: border-box;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    height: 35px;
+}
+
+#wall3-pos {
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-top: none;
+    width: 120px;
+    height: 130px;
+}
+
+#start {
+    font-family: sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    border: 1px solid black;
+    position: relative;
+    bottom: 199px;
+    width: 32px;
+    height: 32px;
+    background-color: #89FD84;
+}
+
+#end {
+    font-family: sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    border: 1px solid black;
+    position: relative;
+    bottom: 233px;
+    left: 345px;
+    width: 32px;
+    height: 32px;
+    background-color: #8886FB;
+}
+
+#wall4 {
+    border: 1px solid black;
+    border-right: none;
+    position: relative;
+    bottom: 232px;
+    width: 155px;
+    height: 35px;
+}
+
+#wall5 {
+    border: 1px solid black;
+    border-bottom: none;
+    position: relative;
+    bottom: 397px;
+    left: 154px;
+    width: 72px;
+    height: 130px;
+}
+
+#wall6 {
+    z-index: 1;
+    position: relative;
+    bottom: 397px;
+    left: 155px;
+    width: 70px;
+    height: 35px;
+    border-bottom: 1px solid black;
+}
+
+#wall7 {
+    border: 1px solid black;
+    border-left: none;
+    position: relative;
+    bottom: 432px;
+    left: 225px;
+    width: 154px;
+    height: 35px;
+}
+
+#game-direction {
+    font-size: 10pt;
+    text-align: left;
+    margin: auto;
+    width: 500px;
+}
+
+#demo-wall {
+    margin: auto;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: #EFEFEF;
+}

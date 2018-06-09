@@ -1,0 +1,35 @@
+<!--
+* Homework 7 - Fifteen Puzzle
+* index.html
+* Name: wuzht
+* Start date: 2017-11-17
+* Last edit date: 2017-11-18
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fifteen Puzzle</title>
+	<meta charset="utf-8">
+	<link href="img/favicon.ico" rel="shortcut icon">
+	<script type="text/javascript" src="jquery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="FifteenPuzzle.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="main-block">
+		<h1>拼图游戏</h1>
+		<div id="game-info">
+			<div id="game-state"></div>
+			<div id="game-steps">步数：0</div>
+			<div id="game-time">时间：<span id="myTime">00:00</span></div>
+		</div>
+		<div id="game-block"></div>
+		<div id="restart-btn" class="btn">开始游戏</div>
+		<div id="origin-pic-btn" class="btn">显示原图</div>
+		<div id="show-num-btn" class="btn">显示序号</div>
+		<div id="inv-num"></div>
+		<div id="origin-pic"></div>
+	</div>
+</body>
+</html>

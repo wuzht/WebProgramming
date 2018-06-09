@@ -1,0 +1,130 @@
+/*
+* Homework2 - Movie Review
+* movie.css
+* The style sheet for tmnt.html
+* Name: wuzht
+* Last update time: 2017-9-18 13:12
+*/
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 8pt;
+	font-family: Verdana, Tahoma, sans-serif;
+	background-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/background.png);
+	text-align: center;
+}
+
+#banner {
+	text-align: center;
+	height: 50px;
+	background-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/bannerbackground.png);
+}
+
+h1 {
+	font-size: 24pt;
+	font-family: Tahoma, Verdana, sans-serif;
+	text-align: center;
+}
+
+#mainBlock {
+	text-align: left;
+	border: 4px solid gray;
+	width: 800px;
+	height: auto;
+	margin: auto;
+	overflow: hidden;
+}
+/*********left_central_section**********/
+#left_central_section {
+	width: 550px;
+	float: left;
+}
+/******rotten******/
+#rotten {
+	height: 83px;
+	background-image: url(https://courses.cs.washington.edu/courses/cse190m/09sp/homework/2/rottenbackground.png);
+	color: white;
+}
+#rottenImg {
+	float: left;
+}
+#rottenWords {
+	float: left;
+	padding-top: 6px;
+}
+#rating {
+	font-size: 48pt;
+	font-weight: bold;
+	color: red;
+}
+/******quotes*******/
+#leftQuote {
+	margin-left: 2%;
+	float: left;
+	width: 47%;
+}
+#rightQuote {
+	margin-left: 2%;
+	float: left;
+	width: 47%;
+}
+.reviews {
+	font-size: 8pt;
+	overflow: hidden;
+	font-weight: bold;
+	background-color: #E1D697;
+	padding: 8px;
+	border: 2px solid gray;
+}
+.icon {
+	margin-right: 5px;
+	float: left;
+}
+.reviewerInfo {
+	margin-bottom: 3em;
+	overflow: hidden;
+}
+.reviewerIcons {
+	margin-right: 5px;
+	float: left;
+}
+.publication {
+	font-style: italic;
+}
+/********right_central_section*********/
+#right_central_section {
+	float: left;
+	width: 250px;
+	background-color: #A2B964;
+	font-size: 8pt;
+	font-family: Arial, sans-serif;
+}
+#infoList {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#infoList dt {
+	font-weight: bold;
+}
+#infoList dd {
+	margin-bottom: 1em;
+}
+/**********************************/
+#bottomBar {
+	float: left;
+	width: 800px;
+	text-align: center;
+	background-color: #A2B964; 
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 0;
+}
+
+#w3c {
+	position: fixed;
+	border: 0;
+	text-decoration: none;
+	bottom: 0;
+	right: 0;
+}

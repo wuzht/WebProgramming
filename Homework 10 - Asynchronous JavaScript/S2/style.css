@@ -1,0 +1,201 @@
+/*
+* Homework 10 - Asynchronous JavaScript - S2
+* style.css
+* Name: wuzht
+* Start date: 2017-12-8
+* Last edit date: 2017-12-9
+*/
+
+/*****************at-plus-button*****************/
+
+.apb {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(48, 63, 159, 0.5);
+    transition: all 0.3s ease-out 0.65s;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-image: url(assets/images/atplus_white.png);
+}
+#button:hover #ring-box {
+    z-index: -1;
+    position: absolute;
+    left: -58px;
+    bottom: -55px;
+    height: 230px;
+    width: 120px;
+    border-radius: 20px;
+}
+#button:hover .apb {
+    transform: scale(1.5);
+    background-color: rgba(48, 63, 159, 1);
+    background-image: url(assets/images/atplus_green.png);
+    transition: all 0.3s;
+}
+/*******************big picture*********************/
+
+#bottom-positioner {
+    position: absolute;
+    left: 50%;
+    bottom: 20%;
+}
+ul {
+    list-style: none;
+}
+/********************info-bar**********************/
+
+#info-bar {
+    text-align: center;
+    cursor: default;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.3s ease-out 250ms;
+}
+#button:hover #info-bar {
+    position: absolute;
+    left: -42px;
+    bottom: 60px;
+    width: 120px;
+    height: 120px;
+    opacity: 1;
+}
+#sum {
+    color: #04EA9D;
+    font-size: 25pt;
+    position: relative;
+    top: 3px;
+}
+/****************control-ring-container***************/
+
+.button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.alphas {
+    position: absolute;
+    left: 9px;
+    top: 5px;
+}
+.mask {
+    cursor: pointer;
+    /*background: url(assets/images/nomask.png) no-repeat 50% 50% #666666;*/
+    background-color: rgba(48, 63, 159, 1);
+    color: #04EA9D;
+    text-align: center;
+    background-size: 55%;
+    position: absolute;
+    opacity: 0;
+    top: 16px;
+    right: 10px;
+    transition: all 0.3s ease-out 250ms;
+}
+#button:hover .mask {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+    position: absolute;
+    top: -20px;
+    right: 52px;
+}
+.history {
+    cursor: pointer;
+    /*background: url(assets/images/history.png) no-repeat 50% 50% #666666;*/
+    background-color: rgba(48, 63, 159, 1);
+    color: #04EA9D;
+    background-size: 55%;
+    position: absolute;
+    opacity: 0;
+    top: 16px;
+    right: 10px;
+    transition: all 0.3s ease-out 250ms;
+}
+#button:hover .history {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+    position: absolute;
+    top: 14px;
+    right: 66px;
+}
+.message {
+    cursor: pointer;
+    /*background: url(assets/images/message.png) no-repeat 50% 50% #666666;*/
+    background-color: rgba(48, 63, 159, 1);
+    color: #04EA9D;
+    background-size: 55%;
+    position: absolute;
+    opacity: 0;
+    top: 16px;
+    right: 10px;
+    transition: all 0.3s ease-out 250ms;
+}
+#button:hover .message {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+    position: absolute;
+    top: 49px;
+    right: 53px;
+}
+.unread {
+    position: absolute;
+    left: 18px;
+    bottom: 18px;
+    text-align: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: 9pt;
+    background-color: red;
+    color: white;
+}
+.setting {
+    cursor: pointer;
+    /*background: url(assets/images/setting.png) no-repeat 50% 50% #666666;*/
+    background-color: rgba(48, 63, 159, 1);
+    color: #04EA9D;
+    background-size: 55%;
+    position: absolute;
+    opacity: 0;
+    top: 16px;
+    right: 10px;
+    transition: all 0.3s ease-out 250ms;
+}
+#button:hover .setting {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+    position: absolute;
+    top: 70px;
+    right: 21px;
+}
+.sign {
+    cursor: pointer;
+    /*background: url(assets/images/signin.png) no-repeat 50% 50% #666666;*/
+    background-color: rgba(48, 63, 159, 1);
+    color: #04EA9D;
+    background-size: 55%;
+    position: absolute;
+    opacity: 0;
+    top: 16px;
+    right: 10px;
+    transition: all 0.3s ease-out 250ms;
+}
+#button:hover .sign {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+    position: absolute;
+    top: 62px;
+    right: -18px;
+}

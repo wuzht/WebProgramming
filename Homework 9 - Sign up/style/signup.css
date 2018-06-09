@@ -1,0 +1,86 @@
+/*
+* Homework 9 - Signup
+* signup.css
+* Name: wuzht
+* Start date: 2017-11-30
+* Last edit date: 2017-12-2
+*/
+
+body {
+    background: #fafafa;
+    color: #125688;
+    font-family: "Microsoft YaHei", sans-serif;
+}
+
+#signup-box {
+    background-color: white;
+    border: 1px solid #edeeee;
+    border-radius: 3px;
+    padding: 10px 0;
+    text-align: center;
+    width: 340px;
+    margin: 30px auto;
+}
+
+.input-name {
+    margin: 0;
+    margin-left: 10%;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.input-boxs {
+    height: 95px;
+}
+
+.text-input {
+    outline: none;
+    width: 80%;
+    border: none;
+    font-size: 16px;
+    font-weight: 200;
+    margin-bottom: 0;
+    padding: 5px 0 10px 0;
+    background: transparent;
+    border-bottom: 1px solid #4c5c72;
+    transition: 0.1s;
+}
+
+.text-input:focus {
+    border-bottom: 2px solid #26A69A;
+}
+
+.text-input-box {
+    height: 35px;
+}
+
+.error-info, #error {
+    word-wrap: break-word;
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    color: red;
+    font-size: 10pt;
+}
+
+.btn {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    font-size: 12pt;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #4090db;
+    transition: 0.2s;
+    border-radius: 2px;
+}
+
+.btn:hover {
+    background-color: #2d6599;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}

@@ -1,0 +1,183 @@
+/*
+* Homework 7 - Fifteen Puzzle
+* style.css
+* Name: wuzht
+* Start date: 2017-11-17
+* Last edit date: 2017-11-18
+*/
+
+body {
+	font-family: "Microsoft YaHei", sans-serif;
+    text-align: center;
+}
+h1 {
+	margin: 15px;
+}
+#main-block {
+	text-align: center;
+    margin: auto;
+}
+
+#game-info {
+	padding: 0;
+	margin: auto;
+	box-sizing: border-box;
+	font-size: 17px;
+	height: 60px;
+	width: 352px;
+}
+
+#game-state, #game-steps, #game-time {
+	height: 25px;
+}
+
+#game-steps, #game-time {
+	width: 140px;
+	display: inline-block;
+}
+#game-block {
+	position: relative;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 0;
+    width: 352px;
+    height: 352px;
+    /*border: 1px solid blue;*/
+}
+
+.grid {
+	font-size: 17pt;
+	position: absolute;
+    display: inline-block;
+    margin: 0;
+    padding-top: 28px;
+    width: 88px;
+    height: 88px;
+    box-sizing: border-box;
+    background-image: url("img/panda.jpg");
+    background-repeat: no-repeat;
+}
+
+.puzzle-grid {
+    border: 1px solid #AAAAAA;
+    box-sizing: border-box;
+    transition: 0.15s;
+}
+
+.puzzle-grid:hover {
+	z-index: 1;
+	cursor: pointer;
+	transform: scale(1.05);
+}
+/*************grid-position*************/
+.pos1, .pos2, .pos3, .pos4 {
+	top: 0px;
+}
+.pos5, .pos6, .pos7, .pos8 {
+	top: 88px;
+}
+.pos9, .pos10, .pos11, .pos12 {
+	top: 176px;
+}
+.pos13, .pos14, .pos15, .pos16 {
+	top: 264px;
+}
+
+.pos1, .pos5, .pos9, .pos13 {
+	left: 0;
+}
+.pos2, .pos6, .pos10, .pos14 {
+	left: 88px;
+}
+.pos3, .pos7, .pos11, .pos15 {
+	left: 176px;
+}
+.pos4, .pos8, .pos12, .pos16 {
+	left: 264px;
+}
+
+/*************img-position*************/
+#grid1 {
+	background-position: 0px 0px;
+}
+#grid2 {
+	background-position: -88px 0px;
+}
+#grid3 {
+	background-position: -176px 0px;
+}
+#grid4 {
+	background-position: -264px 0px;
+}
+#grid5 {
+	background-position: 0px -88px;
+}
+#grid6 {
+	background-position: -88px -88px;
+}
+#grid7 {
+	background-position: -176px -88px;
+}
+#grid8 {
+	background-position: -264px -88px;
+}
+#grid9 {
+	background-position: 0px -176px;
+}
+#grid10 {
+	background-position: -88px -176px;
+}
+#grid11 {
+	background-position: -176px -176px;
+}
+#grid12 {
+	background-position: -264px -176px;
+}
+#grid13 {
+	background-position: 0px -264px;
+}
+#grid14 {
+	background-position: -88px -264px;
+}
+#grid15 {
+	background-position: -176px -264px;
+}
+#grid16 {
+	background-position: -264px -264px;
+}
+
+
+.btn {
+	margin: 15px;
+	margin-top: 0;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: #4284F9;
+    color: white;
+    padding: 8px 23px;
+    font-size: 18px;
+    transition: 0.1s;
+}
+
+.btn:hover {
+	transform: scale(1.03);
+}
+
+#origin-pic {
+	border-radius: 5px;
+	margin: auto;
+	box-sizing: border-box;
+	border: 2px solid #AAAAAA;
+	background-image: url("img/panda.jpg");
+	background-size: 200px;
+	background-repeat: no-repeat;
+	width: 200px;
+    height: 200px;
+    visibility: hidden;
+}
+
+.show-origin-pic {
+	visibility: visible !important;
+}

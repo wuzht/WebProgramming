@@ -1,0 +1,47 @@
+<!--
+* Homework 6 - Games - Maze
+* index.html
+* Name: wuzht
+* Start date: 2017-11-3
+* Last edit date: 2017-11-4
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maze!</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="maze.js" type="text/javascript"></script>
+</head>
+<body>
+	<div id="main-block">
+		<p id="head">The Amazing Mouse Maze!</p>
+		<p>Move your mouse over the "S" to begin.</p>
+		<div id="game-state">
+		</div>
+		<div id="game-zone">
+			<div id="wall1" class="walls">
+				<div id="wall1-neg"></div>
+				<div id="wall1-pos"></div>
+			</div>
+			<div id="wall2" class="walls"></div>
+			<div id="wall3" class="walls">
+				<div id="wall3-neg"></div>
+				<div id="wall3-pos"></div>
+			</div>
+			<div id="start">S</div>
+			<div id="end">E</div>
+			<div id="wall4" class="walls"></div>
+			<div id="wall5" class="walls"></div>
+			<div id="wall6" class="walls"></div>
+			<div id="wall7" class="walls"></div>
+		</div>
+		<div id="game-direction">
+			<p>The object of this game is to guide the mouse cursor through the start area and get to the end area. Be sure to avoid the walls:</p>
+			<div id="demo-wall"></div>
+			<p>Good luck!</p>
+		</div>
+	</div>
+</body>
+</html>

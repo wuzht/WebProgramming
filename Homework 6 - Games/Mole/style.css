@@ -1,0 +1,91 @@
+/*
+* Homework 6 - Games - Mole
+* style.css
+* Name: wuzht
+* Start date: 2017-11-3
+* Last edit date: 2017-11-4
+*/
+
+#main-block {
+    font-family: "Century Gothic", Futura, Verdana, sans-serif;
+    text-align: center;
+}
+
+#head {
+    font-size: 20pt;
+}
+
+#game-info {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin: auto;
+    width: 290px;
+    height: 80px;
+}
+
+#start-button {
+    border-radius: 5px;
+    background-color: white;
+    outline: none;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    border: none;
+    display: inline-block;
+}
+
+#start-button:active {
+    background: linear-gradient(#579CFE, #176CE4);
+}
+
+#game-time, #game-score {
+    height: 20px;
+    display: inline-block;
+    position: relative;
+    left: 30px;
+    bottom: 15px;
+}
+
+#game-score {
+    left: 6px;
+    bottom: 18px;
+}
+
+#Time, #Score {
+    display: inline-block;
+}
+
+#time, #score {
+    display: inline-block;
+    border: 1px solid black;
+    width: 50px;
+    height: 20px;
+}
+
+#game-state {
+    /*box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);*/
+    border: 1px solid black;
+    margin-right: 17px;
+    position: relative;
+    bottom: 18px;
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+}
+
+#radios {
+    margin: auto;
+    width: 208px;
+}
+
+#instructions {
+    font-size: 10pt;
+    text-align: left;
+    margin: auto;
+    width: 680px;
+    font-family: "Courier New", Consolas, monospace;
+}
+
+#ins-head {
+    font-weight: bold;
+}
